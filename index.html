@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Комнаты рядом с Олимпийским парком</title>
 
-    <meta name="description" content="Снять комнаты рядом с Олимпийским парком в Адлере г.Сочи ул. Листопадная д.35 " />
-    <meta name="keywords" content="" />
+    <meta name="description" content="Снять комнату посуточно у моря рядом с Олимпийским парком в Имеретинской бухте. Жилье у моря с удобствами в Адлере г.Сочи, частний сектор ул. Листопадная д.35 " />
+    <meta name="keywords" content="Снять комнату, в Адлере у моря, жилье с удобствами, жилье у моря, снять комнату посуточно, жилье в Имеретинке" />
     <meta property="og:title" content="">
     <meta property="og:image" content="img/cover.jpg">
     <meta property="og:image:width" content="1200">
@@ -42,7 +42,7 @@
         .cover-img {
             background-size: cover;
             background-repeat: no-repeat;            
-            background-image: url(./img/cover.JPG);
+            background-image: url(./img/1.jpg);
             width: 100%;
             height: 100%;
             background-position: 50% 50%;
@@ -54,10 +54,21 @@
             height: 95vh;
             overflow: hidden;
         }
+
         @media screen and (max-width: 768px) {
             .cover-content {
                 height: 90vh;                
             }
+        }
+        .cover-map {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(./img/карта.jpg);
+            width: 100%;
+            height: 100%;
+            background-position: 50% 50%;
+            will-change: transform;
+            transform: translate3d(0px, 0px, 0px);
         }
     </style>
 
@@ -66,11 +77,10 @@
 <body>
     <!--******НАВБ******-->
 
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+        <!--<a href="#"> <img src="favicon-32x32.png" alt="" /></a>-->
         <div class="container-fluid justify-content-end">
-
-            <!--<a class="h2" href="icon/favicon.svg"></a>-->
             <div class="d-flex justify-content-end">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
                     <span class="navbar-toggler-icon"></span>
@@ -78,190 +88,200 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#galerea" >Галерея</a>
+                            <a class="nav-link active" aria-current="page" href="#galerea">Галерея</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Описание</a>
+                            <a class="nav-link active" href="#context">Описание</a>
                         </li>
                         <!-- описание -->
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Цены</a>
+                            <a class="nav-link active" href="#price">Цены</a>
                         </li>
                         <!-- контакты-->
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Контакты</a>
+                            <a class="nav-link active" href="#around">Поблизости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contacts">Контакты</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-
-    <div class="cover-container cover-img ">
-        <!--<img src="img/обложка.jpg" class="card-img-top" alt="">-->
+    <div class="container">
+    <div class="cover-container cover-img">
+    </div>
+    <div class="py-5 text-center container  cover-content ">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto text-light">
+                <h1 class="fw-light"><strong>Комнаты рядом с Олимпийским парком</strong></h1>
+                    <a href="https://wa.me/9882818141" class="btn btn-outline-primary my-2 text-light" target="_blank"><img src="icon/whatsapp.svg" alt="Alternate Text" /> Бронировать</a>
+                    <a href="tel:9882818141" class="btn btn-outline-primary my-2 text-light"><img src="icon/telephone.svg" alt="Alternate Text" /> +79882818141</a>
+                </p>
+            </div>
+        </div>
+    </div>
     </div>
 
-    <div class="container">
+    <!--<div class="container">
         <div class="px-4 py-5  text-center   d-flex flex-column cover-content">
-            <h1 class="display-5 fw-bold text-light">Комнаты рядом с Олимпийским парком</h1>
-            <!--пересмотреть, поменять на flex. в примерах посмотрет flex cover-->
-            <div class="position-absolute top-50 start-50 translate-middle">
-                <div class="input-group">
+            <h1 class="display-5 fw-bold text-light">Комнаты рядом с Олимпийским парком</h1>-->
+    <!--пересмотреть, поменять на flex. в примерах посмотрет flex cover-->
+    <!--<div class="position-absolute top-50 start-50 translate-middle">
+        <div class="input-group">
+            <button type="button" class="btn btn-outline-primary mb-3  mx-auto">
+                <h2>-->
+    <!--<a href="tel:89882818141" rel="nofollow" target="_blank">Бронировать</a>-->
+    <!--<img src="icon/whatsapp.svg" alt="Alternate Text" />
+                        <a class="text-light" href="https://wa.me/9882818141" target="_blank"> Бронировать</a>
+                    </h2>
 
-                    <button type="button" class="btn btn-outline-light  mx-auto">
-                        <h2 class="text-light">
-                            <!--<a href="tel:89882818141" rel="nofollow" target="_blank">Бронировать</a>-->
-                            <img src="icon/whatsapp.svg" alt="Alternate Text" />
-                            <a href="https://wa.me/9882818141" target="_blank">Бронировать</a>
-                        </h2>
-
-                    </button>
-                    <p class="text-center">
-                        <h4 class="mx-auto text-light"><img src="icon/telephone.svg" alt="Alternate Text" /> +79882818141</h4>
-                    </p>
-                </div>
+                </button>
+                <p class="text-center">
+                    <h4 class="mx-auto text-light"><img src="icon/telephone.svg" alt="Alternate Text" /><a class="text-light" href="tel:9882818141">+7(988)281-81-41</a></h4>
+                </p>
             </div>
         </div>
+    </div>-->
+    <!--пересмотреть, поменять на flex-->
+    <div class="position-absolute bottom-0 start-50 translate-middle-x">
 
-        <!--пересмотреть, поменять на flex-->
-        <div class="position-absolute bottom-0 start-50 translate-middle-x">
-
-            <h5 class="mx-auto text-light mb-5 ">
-                <img src="icon/geo-alt.svg" alt="Alternate Text" /> ПГТ Сириус,Листопадная 35
-            </h5>
-        </div>
-        <main>
-            <h5 class="mb-3" id="galerea">Галерея</h5>
+        <h5 class="mx-auto text-light mb-5 ">
+            <img src="icon/geo-alt.svg" alt="Alternate Text" /> ПГТ Сириус, Листопадная 35
+        </h5>
+    </div>
+    <main>
+        <h5 class="mb-3" id="galerea">Галерея</h5>
 
 
-            <div class="row g-1 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="row g-1 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
 
-                <!--<div class="col-6 col-md-4 col-lg-2">
+            <!--<div class="col-6 col-md-4 col-lg-2">
                 <img class="img-fluid" src="img/room2.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="1" />
             </div>-->
-                <!--<div class="col-6 col-md-4 col-lg-2">
+            <!--<div class="col-6 col-md-4 col-lg-2">
                 <img class="img-fluid" src="img/room3.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="2" />
             </div>-->
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal01@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="0" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal02@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="1" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal03@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="2" />
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal04@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="3" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal05@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="4" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal06@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="5" />
-                </div>
-
-
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal07@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="6" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal08@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="7" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal09@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="8" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal10@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="9" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal11@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="10" />
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="img/gal12@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="11" />
-                </div>
-
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal01@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="0" />
             </div>
-            <!--моделное окно-->
-            <!-- Кнопка-триггер модального окна -->
-            <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Запустите демо модального окна
-            </button>-->
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal02@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="1" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal03@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="2" />
+            </div>
 
-            <!-- Модальное окно -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-                    <div class="modal-content">
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal04@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="3" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal05@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="4" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal06@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="5" />
+            </div>
 
-                        <div class="modal-body">
-                            <!-- -------карусель--------- -->
-                            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item">
-                                        <img src="img/gal01@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item active">
-                                        <img src="img/gal02@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal03@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal04@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal05@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal06@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal07@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal08@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal09@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal10@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal11@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/gal12@2x.jpg" class="d-block w-100" alt="...">
-                                    </div>
 
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal07@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="6" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal08@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="7" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal09@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="8" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal10@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="9" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal11@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="10" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-fluid" src="img/gal12@2x.jpg" alt="" data-bs-target="#carouselExample" data-bs-slide-to="11" />
+            </div>
+
+        </div>
+        <!--моделное окно-->
+        <!-- Кнопка-триггер модального окна -->
+        <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Запустите демо модального окна
+        </button>-->
+        <!-- Модальное окно -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <!-- -------карусель--------- -->
+                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img src="img/gal01@2x.jpg" class="d-block w-100" alt="...">
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Предыдущий</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Следующий</span>
-                                </button>
+                                <div class="carousel-item active">
+                                    <img src="img/gal02@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal03@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal04@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal05@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal06@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal07@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal08@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal09@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal10@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal11@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gal12@2x.jpg" class="d-block w-100" alt="...">
+                                </div>
+
                             </div>
-                            <!-- -------карусель--------- -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Следующий</span>
+                            </button>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                        </div>
+                        <!-- -------карусель--------- -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div>
-                <p> <span class="h3">С</span>даются посуточно комнаты с удобствами рядом с Олимпийским парком. Все комнаты имеют отдельный вход с улицы. В комнате имеется 2 односпальные кровати( их можно соединить с общим матрасом) для дополнительного спального места, раскладное кресло - кровать, телевизор, кондиционер, холодильник, электрочайник, санузел. Мебель новая. Гостям предоставляются полотенце, предметы для личной гигиены, фен. На всей территории дома работает сеть Wi-Fi. </p>
-                <p>В просторном зеленом дворе можно прекрасно проводить летние вечера. Есть большая общая кухня, зона для барбекю, место для парковки. Кухня оборудована для самостоятельного приготовления еды. Имеется необходимая посуда, микроволновая печь, утюг и гладильная доска, стиралная машина.  </p>
-                <p>Дорога к морю от дома проходит по прямой местности и занимает не более 15мин. Рядом находится магазин 5-ка( 100м от дома ), остановка общественного транспорта, По дороге на пляж находятся кафе,столовые, сувенирные магазины, экскурсионные бюро. Пляж бесплатный,галечный, оборудован раздевалками,лежаками, шезлонгами, зонтиками от солца и душевыми. Вдоль моря проходит красивая и чистая  набережная с велодорожкой.  </p>
-                <p>В шаговой доступности <a href="http://xn----8sbwaafbgebmvqgqj.xn--p1ai/" target="_blank">Олимпийский парк</a>, ж/д станция "Имеретинский курорт", откуда на "Ласточке" можно доехать до г. Сочи или на горнолыжный курорт <a href="https://go.rosakhutor.com/?utm_source=google&utm_medium=cpc&utm_campaign=10312541509&utm_content=564326565789&utm_term=%D1%80%D0%BE%D0%B7%D0%B0%20%D1%85%D1%83%D1%82%D0%BE%D1%80&utmstat=us|google|cid|10312541509|aid|564326565789|gid|103556024140|pid|kwd-38988712328|keyword|%D1%80%D0%BE%D0%B7%D0%B0%20%D1%85%D1%83%D1%82%D0%BE%D1%80|adposition||placement||region|9051371|device|c&gclid=CjwKCAiApfeQBhAUEiwA7K_UH5-gYZXfZDngbsUs0qNS9ZFqtz7yTEhX-UOCPwAeG53jJ1vjq0hysxoCzP8QAvD_BwE" target="_blank">Роза Хутор</a> (45мин), первый в России тематический парк равлечений для всей семьи <a href="https://www.sochipark.ru/ " target="_blank">Сочи Парк</a>, граница Абхазия.  </p>
-            </div>
-            <div class="mx-auto col col-md-6 border ">
-                <h5>Цены на 2022г. за номер в сутки.</h5>
+        <div>
+            <p id="context"> <span class="h3">С</span>даются посуточно комнаты с удобствами рядом с Олимпийским парком,в Нижнеимеретинской бухте. Все комнаты имеют отдельный вход с улицы. В комнате имеется 2 кровати( их можно соединить с общим матрасом) для дополнительного 3-го спального места, раскладное кресло - кровать, телевизор, кондиционер, холодильник, электрочайник, санузел. Мебель новая. Гостям предоставляются полотенце, предметы для личной гигиены, фен. На всей территории дома работает сеть Wi-Fi. </p>
+            <p>В просторном зеленом дворе можно прекрасно проводить летние вечера. Есть большая общая кухня, зона для барбекю, место для парковки. Кухня оборудована для самостоятельного приготовления еды. Имеется необходимая посуда, микроволновая печь, утюг и гладильная доска, стиралная машина.  </p>
+            <p>Дорога к морю от дома проходит по прямой местности и занимает не более 15мин. Рядом находится магазин 5-ка( 100м от дома ), остановка общественного транспорта, По дороге на пляж находятся кафе, столовые, сувенирные магазины, экскурсионные бюро. Пляж бесплатный, галечный, оборудован раздевалками,лежаками, шезлонгами, зонтиками от солца и душевыми. Вдоль моря проходит красивая и чистая  набережная с велодорожкой.  </p>
+            <p>Бронирование комнаты осуществляется по телефону <a href="tel:9882818141">+7(988)281-81-41</a> (WhatsApp, Viber).  Предоплата за бронирование осуществляется на банковскую карту Сбербанк, реквизиты высылаются по запросу. Размер предоплаты 10% от общей стоимости проживания. Остальная часть оплачиватся на месте в день заезда.При отмене брони менее чем за месяц предоплата не возвращается. Расчетный час: выезд 12.00ч, заезд 14.00ч.</p>
+            <p>С октября месяца по май комнаты сдаются на длительный срок, цена договорная.</p>
+            <div class="mx-auto col col-md-6 border mb-3 ">
+                <h5 id="price">Цены на 2022г. за номер в сутки.</h5>
                 <table class=" mx-auto table table-bordered table-sm  ">
                     <!--table-striped !--table-active-->
 
@@ -274,19 +294,19 @@
                     <tbody>
                         <tr>
                             <td>Июнь</td>
-                            <td>1000р.</td>
+                            <td>1800р.</td>
                         </tr>
                         <tr>
                             <td>Июль</td>
-                            <td>2000р.</td>
-                        </tr>
-                        <tr>
-                            <td>Август</td>
                             <td>2500р.</td>
                         </tr>
                         <tr>
+                            <td>Август</td>
+                            <td>2800р.</td>
+                        </tr>
+                        <tr>
                             <td>Сентябрь</td>
-                            <td>1700р.</td>
+                            <td>2000р.</td>
                         </tr>
                         <tr>
                             <td> Октябрь - Май</td>
@@ -316,84 +336,106 @@
             <!--  ******Поблизости*******  -->
             <!--rel nofolow добавить во всех ссылках читать-->
 
-            <h5 class="mb-3"> Поблизости:</h5>
-
-            <div class="row g-3 row-cols-1 row-cols-md-3 ">
-                <div class="col">
-                    <div class="card">
-                        <img src="img/card01.jpg" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Олимпийский парк</h3>
-                            <h5 class="card-subtitle">1 км.</h5>
-                            <a rel="nofollow" href="http://xn----8sbwaafbgebmvqgqj.xn--p1ai/" class="btn btn-primary" target="_blank">Перейти </a>
-                        </div>
-                    </div>
+        </div>
+        <div>
+            <h5 class="mb-3" id="around"> Поблизости:</h5>
+            <p>Дом находится рядом с самым чистым и благоустроенным пляжем в Адлерском районе. Пляж находится в 15мин ходьбы от дома. Летом на пляже доступны многочисленные развлечения (катание на банане, катамаране, морские прогулки на катере и пр.). </p>
+            <p>В шаговой доступности <a href="http://xn----8sbwaafbgebmvqgqj.xn--p1ai/" target="_blank">Олимпийский парк</a>, ж/д станция "Имеретинский курорт", откуда на "Ласточке" можно доехать до г. Сочи или на горнолыжный курорт <a href="https://go.rosakhutor.com/?utm_source=google&utm_medium=cpc&utm_campaign=10312541509&utm_content=564326565789&utm_term=%D1%80%D0%BE%D0%B7%D0%B0%20%D1%85%D1%83%D1%82%D0%BE%D1%80&utmstat=us|google|cid|10312541509|aid|564326565789|gid|103556024140|pid|kwd-38988712328|keyword|%D1%80%D0%BE%D0%B7%D0%B0%20%D1%85%D1%83%D1%82%D0%BE%D1%80|adposition||placement||region|9051371|device|c&gclid=CjwKCAiApfeQBhAUEiwA7K_UH5-gYZXfZDngbsUs0qNS9ZFqtz7yTEhX-UOCPwAeG53jJ1vjq0hysxoCzP8QAvD_BwE" target="_blank">Роза Хутор</a> (45мин), первый в России тематический парк равлечений для всей семьи <a href="https://www.sochipark.ru/ " target="_blank">Сочи Парк</a>, парк Южные культуры, Орнитологический парк, граница Абхазия.</p>
+        </div>
+    </main>
+    <div class="row g-3 row-cols-1 row-cols-md-3 ">
+        <div class="col">
+            <div class="card">
+                <img src="img/card01.jpg" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Олимпийский парк</h3>
+                    <h5 class="card-subtitle">1 км.</h5>
+                    <a rel="nofollow" href="http://xn----8sbwaafbgebmvqgqj.xn--p1ai/" class="btn btn-primary" target="_blank">Перейти </a>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="img/card02.jpg" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Сочи Парк</h3>
-                            <h5 class="card-subtitle">2 км.</h5>
-                            <a href="https://www.sochipark.ru/" class="btn btn-primary" target="_blank">Перейти </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/card02.jpg" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Сочи Парк</h3>
+                    <h5 class="card-subtitle">2 км.</h5>
+                    <a href="https://www.sochipark.ru/" class="btn btn-primary" target="_blank">Перейти </a>
 
-                        </div>
-                    </div>
-                </div> <div class="col">
-                    <div class="card">
-                        <img src="img/card03.jpg" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Парк Южные Культуры</h3>
-                            <h5 class="card-subtitle">7 км.</h5>
-                            <a href="https://kavkazzapoved.ru/tours/park-yuzhnye-kultury/park-yuzhnye-kultury" class="btn btn-primary" target="_blank">Перейти </a>
-                        </div>
-                    </div>
-                </div><div class="col">
-                    <div class="card">
-                        <img src="img/card04.jpg" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Орнитологический Парк</h3>
-                            <h5 class="card-subtitle">1,5 км.</h5>
-                            <a href="http://ornitoparksochi.ru/" class="btn btn-primary" target="_blank">Перейти </a>
-                        </div>
-
-                    </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="img/card05.jpg" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">ЖД вокзал Адлер</h3>
-                            <h5 class="card-subtitle">8 км.</h5>
-                            <a href="https://www.sochipark.ru/" class="btn btn-primary" target="_blank">Перейти </a>
-
-                        </div>
-                    </div>
+            </div>
+        </div> <div class="col">
+            <div class="card">
+                <img src="img/card03.jpg" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Парк Южные Культуры</h3>
+                    <h5 class="card-subtitle">7 км.</h5>
+                    <a href="https://kavkazzapoved.ru/tours/park-yuzhnye-kultury/park-yuzhnye-kultury" class="btn btn-primary" target="_blank">Перейти </a>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="img/card06.jpg" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Аэропорт Сочи</h3>
-                            <h5 class="card-subtitle">6 км.</h5>
-                            <a href="https://www.aeroport-adler.ru/" class="btn btn-primary" target="_blank">Перейти </a>
-                        </div>
-                    </div>
+            </div>
+        </div><div class="col">
+            <div class="card">
+                <img src="img/card04.jpg" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Орнитологический Парк</h3>
+                    <h5 class="card-subtitle">1,5 км.</h5>
+                    <a href="http://ornitoparksochi.ru/" class="btn btn-primary" target="_blank">Перейти </a>
                 </div>
 
             </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3">
+                <img src="img/card05.jpg" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">ЖД вокзал Адлер</h3>
+                    <h5 class="card-subtitle">8 км.</h5>
+                    <a href="https://www.sochipark.ru/" class="btn btn-primary" target="_blank">Перейти </a>
 
-        </main>
-
-
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/card06.jpg" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Аэропорт Сочи</h3>
+                    <h5 class="card-subtitle">6 км.</h5>
+                    <a href="https://www.aeroport-adler.ru/" class="btn btn-primary" target="_blank">Перейти </a>
+                </div>
+            </div>
+        </div>
 
     </div>
-    <footer>
-        <div>
-            <h5 class="mb-3"> Контакты:</h5>
-        </div>
-    </footer>
+    <div class="container cover-map"> </div>
+    <h5 id="contacts"> Контакты:</h5>
+    <p><img src="icon/geo-alt.svg" alt="Alternate Text" /> <a href="https://yandex.ru/maps/239/sochi/house/listopadnaya_ulitsa_35/Z0AYfw9jT0wHQFppfXhxdXhmYw==/?ll=39.983690%2C43.404458&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=16">ПГТ Сириус,Листопадная 35</a></p>
+    <img src="img/карта.jpg" alt="Alternate Text" />
 
+ </div>
+
+
+
+
+
+    <footer class="py-3 my-4 text-center ">
+        <p class="h6 ">Свяжитесь с нами:</p>
+        <nav class="nav flex-column ">
+            <a class="nav-link active text-secondary " aria-current="page" href="https://wa.me/9882818141" target="_blank"><img class="bg-light" src="icon/whatsapp.svg" alt="" /> +79882818141</a>
+            <a class="nav-link text-secondary" href="mailto:listopadnaya35@yandex.ru " target="_blank"><img src="icon/envelope.svg" alt="Alternate Text" /> listopadnaya35@yandex.ru</a>
+            <!--<a class="nav-link" href="#">Ссылка</a>
+            <a class="nav-link disabled">Отключенная</a>-->
+        </nav>
+        <!--<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Главная</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Функции</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Цены</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Ответы</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">О нас</a></li>
+        </ul>-->
+        <p class="text-center text-muted">© ПГТ Сириус, ул. Листопадная 35, 2022г.</p>
+    </footer>">
+      
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
